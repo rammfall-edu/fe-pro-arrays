@@ -84,7 +84,7 @@ function every(array, callback) {
   callback();
 }
 
-array.every(array,(item,index,array)=> {
+array.every((item,index,array)=> {
   return item >1;
 })
 
